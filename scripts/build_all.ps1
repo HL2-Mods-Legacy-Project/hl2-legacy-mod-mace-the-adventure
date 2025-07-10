@@ -1,12 +1,11 @@
 & "$PSScriptRoot\..\gitmodules\mod-installer\build_all.ps1" `
-  -Version "<version>" `
+  -Version "2.0.0" `
   -PreReleaseVersion "beta.1" `
-  -OutputFilePrefix "<output file prefix>" `
-  -ModName "<mod name>" `
-  -ModFolder "<mod folder>" `
-  -AdditionalModFolders @() `
+  -OutputFilePrefix "MACe_09052006" `
+  -ModName "MACe the Adventure" `
+  -ModFolder "MACe" `
   -ModFilesPath "$PSScriptRoot\..\game" `
-  -ModBaseFilesUrl "<url to mod base files zip>" `
-  -ModBaseFilesUrlHash "<mod base files zip sha256>" `
-  -ModReadmePath "<mod readme path>" `
+  -ModBaseFilesUrl "https://github.com/HL2-Mods-Legacy-Project/hl2-legacy-registry/releases/download/mace-the-adventure/MACe-09052006-Original.zip" `
+  -ModBaseFilesUrlHash "cbeed7de0c5ace99f8141bbfa9a6b8a6ad0eb69ef1bb0bd8aabfb37dd6cf8d7a" `
+  -ModReadmePath "Manual_MACe_the_Adventure.txt" `
   -PublishPath "$PSScriptRoot\..\artifacts\publish"
